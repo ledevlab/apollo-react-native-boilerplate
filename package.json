@@ -1,0 +1,33 @@
+{
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "2.1.1",
+    "apollo-boost": "^0.1.28",
+    "expo": "^32.0.0",
+    "graphql": "^14.1.1",
+    "react": "16.5.0",
+    "react-apollo": "^2.4.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-navigation": "^3.0.9"
+  },
+  "devDependencies": {
+    "babel-preset-expo": "^5.0.0",
+    "jest-expo": "^32.0.0"
+  },
+  "private": true,
+  "name": "leclub-rn",
+  "description": "A React Native app with Apollo Client. This is a minimal react native app. It uses expo and is unejected. It uses react navigation and has the minimal code needed to demonstrate log in, sign up and log out.",
+  "version": "1.0.0",
+  "author": "",
+  "license": "ISC"
+}
