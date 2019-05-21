@@ -25,9 +25,8 @@
     "jest-expo": "^32.0.0"
   },
   "private": true,
-  "name": "leclub-rn",
+  "name": "apollo-react-native-boilerplate",
   "description": "A React Native app with Apollo Client. This is a minimal react native app. It uses expo and is unejected. It uses react navigation and has the minimal code needed to demonstrate log in, sign up and log out.",
   "version": "1.0.0",
-  "author": "",
-  "license": "ISC"
+  "author": ""
 }

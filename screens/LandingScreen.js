@@ -1,16 +1,5 @@
 import React from 'react';
-import {
-  Button,
-  Image,
-  Platform,
-  SafeAreaView,
-  ScrollView,
-  StyleSheet,
-  Text,
-  TextInput,
-  TouchableOpacity,
-  View,
-} from 'react-native';
+import { Button, Text, View } from 'react-native';
 
 export default class LandingScreen extends React.Component {
   static navigationOptions = {

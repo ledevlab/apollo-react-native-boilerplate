@@ -2,14 +2,9 @@ import React from 'react';
 import {
   AsyncStorage,
   Button,
-  Image,
-  Platform,
   SafeAreaView,
-  ScrollView,
   StyleSheet,
   Text,
-  TextInput,
-  TouchableOpacity,
   View,
 } from 'react-native';
 
